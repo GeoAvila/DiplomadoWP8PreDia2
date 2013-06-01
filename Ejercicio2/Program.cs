@@ -11,7 +11,6 @@ namespace Ejercicio2
         {
             MiClase obj = new MiClase();
             MiClase obj2 = new MiClase(20) { miPropiedad = 20, CampoComoPropiedad=10};
-            
             var nombre = args.SingleOrDefault();
 
             //ejemplo IF
